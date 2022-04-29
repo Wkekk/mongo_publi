@@ -1,6 +1,9 @@
 import json
 from pymongo import MongoClient
+import os
+import sys
 
+fn = sys.argv[1]
 
 connectionString = "mongodb://admin:admin@127.0.0.1:27017"
 client = MongoClient(connectionString)
@@ -8,7 +11,7 @@ db=client.DBLP
 publis=db.publis
 
 # Loading or Opening the json file
-with open('test_import.json') as file:
+with open(fn) as file:
 	file_data = json.load(file)
 	
 # Inserting the loaded data in the Collection
