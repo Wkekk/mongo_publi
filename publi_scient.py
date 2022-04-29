@@ -100,15 +100,16 @@ Q9_results = publis.aggregate(Q9_pipeline)
 
 #########################  AFFICHAGE  #####################################
 
-### REMPLACE LE CURSEUR DE LA BOUCLE FOR PAR CELUI DE LA REPONSE A LA QUESTON VOULUE
+### REMPLACER LE CURSEUR DE LA BOUCLE FOR PAR CELUI DE LA REPONSE A LA QUESTON VOULUE
 ## Q1 et Q7 affcihées séparément car elles ne prennent pas de place
 
 #Q2_livres, Q3_livres_depuis_2014, Q4_publi_toru_ishida, Q5_auteurs, 
 #Q6_publi_toru_ishida_ord, Q8_results, Q9_results
 
 
-for documents in Q4_publi_toru_ishida:
+for documents in Q9_results:
 	print('++++++++++++++++++++++++++++++++++++++\n')
 	pprint(documents)
 
 print('\n======================')
+client.close()
