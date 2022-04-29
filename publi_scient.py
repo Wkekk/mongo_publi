@@ -1,13 +1,13 @@
 ###############################################		TODO	#################################################
-#	Compter le nombre de documents de la collection publis : done 										    #
-#	Q1 : Lister tous les livres (type “Book”) : done 														#
-#	Q2 : Lister les livres depuis 2014 : done 																#
-#	Q3 : Lister les publications de l’auteur “Toru Ishida” : done 											#
-#	Q4 : Lister tous les auteurs distincts : done 															#
-#	Q5 : Trier les publications de “Toru Ishida” par titre de livre : done 									#
-#	Q6 : Compter le nombre de ses publications : done 														#
-#	Q7 : Compter le nombre de publications depuis 2011 et par type : done 									#
-#	Q8 : Compter le nombre de publications par auteur et trier le résultat par ordre croissant : done 		#
+#	Q1 : Compter le nombre de documents de la collection publis : done 										#
+#	Q2 : Lister tous les livres (type “Book”) : done 														#
+#	Q3 : Lister les livres depuis 2014 : done 																#
+#	Q4 : Lister les publications de l’auteur “Toru Ishida” : done 											#
+#	Q5 : Lister tous les auteurs distincts : done 															#
+#	Q6 : Trier les publications de “Toru Ishida” par titre de livre : done 									#
+#	Q7 : Compter le nombre de ses publications : done 														#
+#	Q8 : Compter le nombre de publications depuis 2011 et par type : done 									#
+#	Q9 : Compter le nombre de publications par auteur et trier le résultat par ordre croissant : done 		#
 #############################################################################################################
 
 
